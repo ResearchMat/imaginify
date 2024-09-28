@@ -7,9 +7,9 @@ interface MongooseConnection {
   promise: Promise<Mongoose> | null;
 }
 // Defined the type for the global object to avoid using 'any'
-interface GlobalWithMongoose {
-    mongoose?: MongooseConnection;
-  }
+// interface GlobalWithMongoose {
+//     mongoose?: MongooseConnection;
+//   }
 
 let cached: MongooseConnection = (global as any).mongoose
 
