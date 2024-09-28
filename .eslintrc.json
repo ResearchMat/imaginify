@@ -3,6 +3,6 @@
   "rules": {
     "@typescript-eslint/no-explicit-any": "off", // Disable no-explicit-any
     "prefer-spread": "off", // Disable prefer-spread
-     "@typescript-eslint/no-unused-vars": "error"
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }] // Warn for unused vars but allow prefixing with _
   }
 }
