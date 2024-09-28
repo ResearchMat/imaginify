@@ -1,6 +1,7 @@
 "use client";
 import Sidebar from '@/components/shared/Sidebar'
-import React,{useEffect} from 'react'
+// import React,{useEffect} from 'react'
+import React from 'react'
 import { usePathname } from 'next/navigation'; 
 import MobileNav from '@/components/shared/MobileNav';
  const Layout = ({ children }: {children: React.ReactNode}) => {

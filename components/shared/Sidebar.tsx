@@ -1,13 +1,14 @@
 "use client";
 import { navLinks } from '@/constants'
-import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+// import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { SignedIn,  UserButton } from '@clerk/nextjs'
 import { link } from 'fs'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import { text } from 'stream/consumers'
-import { Button } from '../ui/button';
+// import { text } from 'stream/consumers'
+// import { Button } from '../ui/button';
 
 const Sidebar = () => {
     const pathname = usePathname();
