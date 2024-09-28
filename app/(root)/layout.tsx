@@ -9,9 +9,7 @@ import MobileNav from '@/components/shared/MobileNav';
   // Hide the sidebar on the home page ("/")
   const showSidebar = pathname !== '/';
   console.log("pathname ",pathname);
-  // useEffect(() => {
-  //   console.log("Client-side render (hydration)");
-  // }, []); 
+
   return (
     <main className='root'>
       {showSidebar && (
