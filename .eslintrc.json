@@ -1,5 +1,5 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
+  "extends": ["next/core-web-vitals", "next/typescript","react-app"],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off", // Disable no-explicit-any
     "prefer-spread": "off", // Disable prefer-spread
